@@ -5,3 +5,5 @@ My CV
 
 
 2. Lucid Post URL—-  https://lucid.blog/dotunokeke/post/1566471174
+
+3. Lucid css url-- https://lucid.blog/dotunokeke/post/styling-with-css-323
