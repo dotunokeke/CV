@@ -4,66 +4,46 @@
 <head>
   <meta charset="utf-8">
   <title>Dotun Okeke CV</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/41804d0ddb.js"></script>
+  <script src="myScript.js"></script>
+
 </head>
 
 <body>
-  <hr>
-  <table cellspacing= "20">
-
-  <tr>
-    <td><img src="https://res.cloudinary.com/dotunokeke/image/upload/c_scale,q_100,r_30,w_220/v1566498012/IMG_5124_tyexwu.jpg" alt="skills image" ></td>
-    <td><h1>DOTUN OKEKE</h1>
+  <div class="">
+  <img class="profile-image" src=https://res.cloudinary.com/dotunokeke/image/upload/c_scale,q_100,r_30,w_220/v1566498012/IMG_5124_tyexwu.jpg alt="skills image" >
+    <h1>DOTUN OKEKE</h1>
     <h3>Product Designer</h3>
     <p>31st, Ishadare Street <br>
       Lagos State. <br>
       +2348083861429 <br>
-      dotunokeke@gmail.com
-    </p></td>
-  </tr>
-  </table>
+      <a id="btn" href="mailto:dotunokeke@email.com">dotunokeke@gmail.com</a>
+    </p>
+    </div>
   <hr>
+<img class="skill-image" src="https://res.cloudinary.com/dotunokeke/image/upload/v1567026726/responsive_piz5wb.png" alt="">
+<div class="">
+  <h3 class="skill-text"> MY SKILLS</h3>
 
-  <h3>SKILLS</h3>
-  <table cellspacing= "10">
-    <thead>
-    <tr>
-      <th>Design</th>
-      <th>Programming</th>
-      <th>Research</th>
-    </tr>
-    </thead>
+      <h4 class="sub-heading">Design</h4>
+      <p>   Figma Sketch AdobeXd Blasmiq Mock-up</p>
+      <h4 class="sub-heading">Programming</h4>
+      <p> HTML CSS Javascript Bootsratp </p>
+      <h4 class="sub-heading">Research</h4>
+      <p> Wireframing Storyboarding Prototyping </p>
 
-    <tbody style=" text-align: center">
-      <tr>
-        <td>Figma</td>
-        <td>HTML</td>
-        <td>User Flow</td>
-      </tr>
-      <tr>
-        <td>Sketch</td>
-        <td>CSS</td>
-        <td>Wireframing</td>
-      </tr>
-      <tr>
-        <td>AdobeXd</td>
-        <td>Javascript</td>
-        <td>Storyboarding</td>
-      </tr>
-      <tr>
-        <td>Blasmiq Mock-up</td>
-        <td>Bootsratp</td>
-        <td>Prototyping</td>
-      </tr>
-    </tbody>
-  </table>
+    </div>
 <hr>
 
+<div class="">
+  <img src="" alt="">
   <h3>WORK EXPERIENCE</h3>
   <table cellspacing= "20">
     <thead>
       <tr>
-        <th>Dates</th>
-        <th>Work</th>
+        <th class="sub-heading">Dates</th>
+        <th class="sub-heading">Work</th>
       </tr>
     </thead>
     <tbody>
@@ -86,13 +66,64 @@
       </tr>
     </tbody>
   </table> <hr>
+  </div>
 
+<div class="">
+  </div>
+  <img class="education-image" src="https://res.cloudinary.com/dotunokeke/image/upload/v1567025165/skill_fge6wl.png" alt="">
   <h3>EDUCATION</h3>
   <h5>University of Benin, Edo.</h5>
   <p><em>B.sc Business Administration[Marketing]</em><br><sub>January 2014- November 2018</sub></p>
 <p>Marketing graduate with a background in sales, marketing and advertising as a result of
    previusly completed internship at Lagos traffic Radio.
    <hr>
+</div>
+
+<div class="parent">
+
+
+ <div class="wrapper">
+     <h2>Contact Me</h2>
+     <div id="error_message"></div>
+
+     <form id="myform" onsubmit="return validation()">
+
+       <div class="Input_field">
+         <input type="text" id="name" placeholder="Name">
+       </div>
+
+       <div class="Input_field">
+         <input type="text" id="email" placeholder="Email">
+       </div>
+
+       <div class="Input_field">
+         <input type="text" id="title" placeholder="Title">
+       </div>
+
+       <div class="Input_field">
+         <textarea id="message" placeholder="Message"></textarea>
+       </div>
+
+       <div class="btn">
+         <input type="submit">
+       </div>
+
+     </form>
+
+   </div>
+ </div>
+
+ <footer id="footer">
+
+   <i class="social-icon fab fa-facebook-f"></i>
+   <a href="https://twitter.com/simeon_jnr" class="social-icon fab fa-twitter"></a>
+   <i class="social-icon fab fa-instagram"></i>
+   <a href="#btn" class="social-icon fas fa-envelope"></a>
+   <a href="#"></a>
+
+   <p>© Copyright 2019 Dotun Okeke</p>
+
+ </footer>
 
 </body>
 
